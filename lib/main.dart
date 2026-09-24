@@ -17,8 +17,13 @@ void main() {
           ),
           ),
           child: Center(
-            child: Text("Hello world!")
-          )
+            child: Text("Hello world!",
+            style: TextStyle(
+              color: const Color.fromARGB(255, 27, 8, 229),
+              fontSize: 32,
+            ),
+            ),
+          ),
         ),
       )),
     ),
