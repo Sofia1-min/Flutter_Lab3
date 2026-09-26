@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+/*import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
@@ -26,6 +26,17 @@ void main() {
           ),
         ),
       )),
+    ),
+  );
+}*/
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        body: Image.asset('img/3kartinka.jpg'),
+      ),
     ),
   );
 }
