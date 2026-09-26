@@ -1,17 +1,27 @@
-# first_flutter_app
+# Flutter Lab 3
 
-A new Flutter project.
+Учебный проект по Flutter: приложение с градиентным фоном и стилизованным текстом.
 
-## Getting Started
+## Автор
+Хортюнова София Юрьевна ИСП-241
 
-This project is a starting point for a Flutter application.
+## Стек
+- Flutter 3.41.8
+- Dart 10.0.400
+- Платформа: Web (Edge)
+- IDE: VS Code
 
-A few resources to get you started if this is your first Flutter project:
+## Скриншот
+![Приложение](img/step9_Hortunova.png)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Запуск
+1. Клонировать репозиторий
+2. Перейти в папку проекта
+3. Выполнить `flutter pub get`
+4. Запустить `flutter run -d chrome`
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Что изучили
+- Структуру Flutter-проекта
+- Виджеты: MaterialApp, Scaffold, Container, Center, Text
+- Hot Reload и Hot Restart
+- Git и .gitignore
